@@ -29,15 +29,13 @@ const Bio = ({ author, language = 'ko' }) => {
         ) : (
           <div className="introduction english">
             <p className="title">
-              Hello,
+              Thougths,
               <br />
-              my name is
+              stroies and ideas.
               <br />
-              <strong>{name}</strong>
-              .<br />
             </p>
             <p className="description">
-              I'm a {bio.role} <ReactRotatingText items={bio.description} />
+              <ReactRotatingText items={bio.description} />
               <br />
             </p>
             <div className="social-links">
@@ -45,7 +43,7 @@ const Bio = ({ author, language = 'ko' }) => {
             </div>
           </div>
         )}
-        <Image className="thumbnail" src={bio.thumbnail} alt="thumbnail" />
+        {/* <Image className="thumbnail" src={bio.thumbnail} alt="thumbnail" /> */}
       </div>
     </div>
   );

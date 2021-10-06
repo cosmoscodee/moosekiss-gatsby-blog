@@ -9,7 +9,7 @@ const ProjectsSection = ({ projects }) => {
   return (
     <div className="projects-section-wrapper">
       <div className="projects-section">
-        <SectionHeader title="Projects" />
+        <SectionHeader title="" />
         {projects.map((project, index) =>
           index === 0 ? null : (
             <div className="project" key={index}>
