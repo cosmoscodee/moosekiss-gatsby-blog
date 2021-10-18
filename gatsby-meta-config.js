@@ -14,7 +14,7 @@ module.exports = {
     name: `김현우`,
     bio: {
       role: ``,
-      description: ['Creative Technologist'],
+      description: ['Creative Technologist.', 'Welcome To My Tech Blog.'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
@@ -43,8 +43,17 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
+        date: '2021.10 ~ ',
+        activity: 'NC ITS',
+        links: {
+          post: '',
+          github: '',
+          demo: '',
+        },
+      },
+      {
         date: '2018.06 ~ 2021.09',
-        activity: '오티아이',
+        activity: 'OTI',
         links: {
           post: '',
           github: '',
@@ -74,8 +83,8 @@ module.exports = {
       {
         title: '',
         description:
-          'Web Software Engiineer',
-        techStack: ['spring', 'java', 'oracle'],
+          '',
+        techStack: ['WORK SUPER HARD',],
         thumbnailUrl: 'aboutme.jpg',
         links: {
           post: '',
